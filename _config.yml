@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", , "dirt", "neon",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+title                    : "My Fist" #큰 제목임
+title_separator          : "|"
+subtitle                 : "potato"# site tagline that appears below site title in masthead
+name                     : "hy2sung23"
+description              : "You don't make mistake, it is just happy accident"
 url                      : "https::/hy2sung23.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hy2sung23/hy2sung23.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+ breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -63,10 +63,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "mJukexUPta158DoIqnDNmKVkoM1iKHhIpeueIk-DP7Y"
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "6BF5A01C0E650B479B612AC5A2184144"
 
 # Social Sharing
 twitter:
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "박혜성"
+  avatar           : "/assets/image/image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "23살"
+  location         : "서울특별시 노원구"
+  email            : "hy_stom@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      # url: https://www.instagram.com/hy2sung/
 
 
 # Reading Files
