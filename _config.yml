@@ -12,13 +12,13 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "My Fist" #큰 제목임
+title                    : "Develop Blog." #큰 제목임
 title_separator          : "|"
-subtitle                 : "potato"# site tagline that appears below site title in masthead
+subtitle                 : "hye seong"# site tagline that appears below site title in masthead
 name                     : "hy2sung23"
 description              : "You don't make mistake, it is just happy accident"
 url                      : "https::/hy2sung23.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -82,7 +82,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/hy2sung/"
+
 
 # Analytics
 analytics:
@@ -102,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:hy_stom@naver.com"
+      # url: "mailto:hy_stom@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -117,7 +117,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://instagram.com/hy2sung/"
+      # url: "https://instagram.com/hy2sung/"
 
 # Site Footer
 footer:
