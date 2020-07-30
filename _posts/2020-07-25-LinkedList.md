@@ -1,5 +1,5 @@
 ---
-title: "2. Linked List With C++"
+title: "C++ 2. Linked List "
 categories:
  - Data Structure & Algorithm
 last_modified_at: 2020-07-25

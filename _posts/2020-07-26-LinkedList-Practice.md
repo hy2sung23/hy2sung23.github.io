@@ -1,5 +1,5 @@
 ---
-title: "2-2 Practice"
+title: "C++ 2-2. Practice"
 categories:
  - Data Structure & Algorithm
 last_modified_at: 2020-07-26
