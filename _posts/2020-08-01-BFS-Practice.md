@@ -125,5 +125,62 @@ int main() {
 }
 ```
 
-##### 백준 9466번. 텀 프로젝트
+##### 백준 9466번. 텀 프로젝트 (fail)
 
+모르겠다;;
+
+##### 백준 2583번. 영역 구하기 (ing)
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+#define x first;
+#define y second;
+
+int board[100][100];
+int vis[100][100];
+
+int dx[4] = { 1,0,-1,0 };
+int dy[4] = { 0,1,0,-1 };
+
+int main() {
+	queue<pair<int, int>> Q;
+	vector<int> v;
+	int M, N, K;
+	cin >> M >> N >> K; //M:높이 N:밑변
+	int St_x, St_y, Fin_x, Fin_y;
+	while (K--) {
+		// St_x,St_y, Fin_x,Fin_y
+		// St_x - Fin_x, St_y - Fin_y for문으로 순회하면서 Q.push()
+		cin >> St_x >> St_y >> Fin_x >> Fin_y;
+		for (int i = 0; i < Fin_x - St_x; i++)
+			for (int j = 0; j < Fin_y - St_y; j++) {
+				vis[St_x + i][St_y + j] = 1;
+			}
+	}
+		for (int i = 0; i < N; i++)
+			for (int j = 0; j < M; j++) 
+				if (!vis[i][j]) {
+					int size = 0;
+					Q.push({ i,j });
+					while (!Q.empty()) {
+						auto cur = Q.front();
+						for (int dir = 0; dir < 4; dir++) {
+							int nx = dx[dir] + cur.x;
+							int ny = dy[dir] + cur.y;
+							if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
+							if (vis[nx][ny] || board[nx][ny]) continue;
+							vis[nx][ny] = 1;
+							Q.push({ nx,ny });
+							size++;
+
+						}
+					}
+					v.push_back(size);
+				}
+		for (auto c : v) cout << c << '\n';
+	
+
+}
+```

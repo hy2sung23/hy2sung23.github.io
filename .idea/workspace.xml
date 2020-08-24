@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e7077a3-77ae-4c38-833a-7e61bde100e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-17-01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-17-02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-20-04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-21-05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-22-CT-0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-22-CT-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-22-CT-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-25-06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-26-CT-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-26-CT-4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-26-CT-5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-27-07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-28-08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-06-CT-6.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-06-CT-7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-07-09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-07-10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-07-CT-10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-12-CT-11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-12-CT-12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-12-CT-13.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-12-CT-14.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-13-CT-15.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-16-CT-16.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-22-Array.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-24-Array-Practice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-25-LinkedList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-26-11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-26-LinkedList-Practice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-27-12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-29-456_practice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-29-Queue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-29-Stack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-29-deque.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-30-stack2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-31-BFS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-01-BFS-Practice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-01-DFS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-03-Recursion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-04-BFS-Practice2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-24-hello-world.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MarkDown" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dAPCrXH5VUd52ik9dZE5k1sEF0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitblog\hy2sung23.github.io\docs\_pages" />
+      <recent name="C:\gitblog\hy2sung23.github.io\_pages" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e7077a3-77ae-4c38-833a-7e61bde100e4" name="Default Changelist" comment="" />
+      <created>1591864799194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591864799194</updated>
+      <workItem from="1591864801273" duration="4504000" />
+      <workItem from="1591874407627" duration="5163000" />
+      <workItem from="1591933930900" duration="15000" />
+      <workItem from="1592019454886" duration="3264000" />
+      <workItem from="1592357326401" duration="19169000" />
+      <workItem from="1592741386664" duration="7382000" />
+      <workItem from="1592750574431" duration="3458000" />
+      <workItem from="1592834718814" duration="1086000" />
+      <workItem from="1592906711195" duration="15929000" />
+      <workItem from="1593231982338" duration="48295000" />
+      <workItem from="1594971766295" duration="1275000" />
+      <workItem from="1595305741730" duration="2077000" />
+      <workItem from="1595422802877" duration="5942000" />
+      <workItem from="1595471916903" duration="63000" />
+      <workItem from="1595585148952" duration="7148000" />
+      <workItem from="1595670600917" duration="6942000" />
+      <workItem from="1595737689384" duration="6000" />
+      <workItem from="1595759311195" duration="9416000" />
+      <workItem from="1595770815557" duration="23000" />
+      <workItem from="1595824229656" duration="15395000" />
+      <workItem from="1596026805685" duration="5040000" />
+      <workItem from="1596162585116" duration="15025000" />
+      <workItem from="1596253966032" duration="2047000" />
+      <workItem from="1596267640625" duration="1029000" />
+      <workItem from="1596368523081" duration="1186000" />
+      <workItem from="1596426035558" duration="72000" />
+      <workItem from="1596427437565" duration="7691000" />
+      <workItem from="1596519159881" duration="734000" />
+      <workItem from="1596523246501" duration="2497000" />
+      <workItem from="1597110489143" duration="48000" />
+      <workItem from="1598238566579" duration="2248000" />
+    </task>
+    <task id="LOCAL-00001" summary="first post :)">
+      <created>1591865084580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591865084580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified.">
+      <created>1591865634331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591865634331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modified.">
+      <created>1591872455994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591872455994</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new posting">
+      <created>1592755387096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592755387096</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new posting">
+      <created>1594113100072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594113100072</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new posting">
+      <created>1594117553955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594117553955</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new posting">
+      <created>1594638373140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594638373140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new posting">
+      <created>1594638415177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594638415177</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new posting">
+      <created>1595770826682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595770826682</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first post :)" />
+    <MESSAGE value="modified." />
+    <MESSAGE value="new posting" />
+    <option name="LAST_COMMIT_MESSAGE" value="new posting" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593179732032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="495" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593179732032" />
+    <state x="410" y="179" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595759533344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="179" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595759533344" />
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1595770825565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595770825565" />
+    <state x="433" y="189" key="EditFileWatcherDialog" timestamp="1598239317217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="189" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1598239317217" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595652070634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595652070634" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593180911090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593180911090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593180911090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593180911090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593180911090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593180911090" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593180911090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593180911090" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594116214702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1594116214702" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591875944220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591875944220" />
+    <state x="571" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594116216234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594116216234" />
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1598239811101">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598239811101" />
+  </component>
+</project>
