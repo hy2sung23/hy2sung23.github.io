@@ -1,50 +1,56 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
+      en      : &EN       Algorithm
       en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
+      ko      : &KO       Algorithm
       ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
+
       # @end locale config
-    url: /archive.html
+    url: data%20structure%20&%20algorithm/2020/07/22/Array.html
 
   - titles:
       # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
+      en: &EN       Archive
+      en-US: *EN
+      ko: &KO       Archive
+      ko-KR: *KO
+
       # @end locale config
-    url: /about.html
+    url: /archive.html
+
+
+docs-en:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /docs/en/quick-start
+      - title:  Structure
+        url:    /docs/en/structure
+
+  - title:      Customization
+    children:
+      - title:  Configuration
+        url:    /docs/en/configuration
+      - title:  Navigation
+        url:    /docs/en/navigation
+
+Algorithm:
+  - title: Algorithm
+    children:
+      - title: 1. Array And Vector
+        url: data%20structure%20&%20algorithm/2020/07/22/Array.html
+      - title: 2. Linked List
+        url: data%20structure%20&%20algorithm/2020/07/25/LinkedList.html
+      - title: 3. Stack
+        url: data%20structure%20&%20algorithm/2020/07/29/Stack.html
+      - title: 4. Queue
+        url: data%20structure%20&%20algorithm/2020/07/29/Queue.html
+      - title: 5. Deque
+        url: data%20structure%20&%20algorithm/2020/07/29/deque.html
+      - title: 6. Breadth First Search
+        url: data%20structure%20&%20algorithm/2020/07/31/BFS.html
+      - title: 7. Depth First Search
+        url: data%20structure%20&%20algorithm/2020/08/01/DFS.html
+      - title: 8. Recursion
+        url: data%20structure%20&%20algorithm/2020/08/03/Recursion.html

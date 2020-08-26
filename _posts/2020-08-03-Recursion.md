@@ -1,13 +1,11 @@
 ---
 title: "C++ 8. Recursion"
-categories:
- - Data Structure & Algorithm
+articles:
+ - data_source: Algorithm & Data
 last_modified_at: 2020-08-03
-toc: true
-toc_sticky: true
 ---
 
-#### Recursion 재귀
+## Recursion 재귀
 
 하나의 함수에서 자기 자신을 다시 호출하여 작업을
 수행하는 알고리즘.
@@ -18,7 +16,7 @@ toc_sticky: true
 ex) 1번 도미노가 쓰러진다. -> k번 도미노가 쓰러지면 k+1번 도미노가 쓰러진다. ->
 모든 도미노가 쓰러진다.
 
-##### 재귀함수의 조건
+### 재귀함수의 조건
 
 특정 입력에 대해서는 재귀하지 않고 종료해야 함.
 이 경우를 base condition이라 하고, 모든 입력은 base condition으로 수렴해야 함
@@ -35,7 +33,7 @@ void func1(n){
 - 모든 재귀함수는 반복문만으로 동일한 동작을 하는 코드를 만들 수 있음.
 - 재귀는 반복문에 비해 코드가 간결하지만, 메모리, 시간 비용이 많이 듦
 
-#### 연습문제 1629. 곱셈 (mod)
+## 연습문제 1629. 곱셈 (mod)
 
 ```c++
 
@@ -55,7 +53,7 @@ ll POW(ll a, ll b, ll c) {
 
 어렵다.. 지금 이해 안 되면 외우기라도...
 
-#### 백준 11729번. 하노이 탑
+## 백준 11729번. 하노이 탑
 
 n번 원판이 3번째 장대로 가려면 1~n01 원판이 2번 장대에
 있어야 함. n-1번이 2번째로 가려면 1~n-2번이 3번째에 있어야 함
@@ -64,18 +62,18 @@ n번 원판이 3번째 장대로 가려면 1~n01 원판이 2번 장대에
 
 => 재귀
 
-##### 1. 함수의 정의 void func(int a, int b, int n)
+### 1. 함수의 정의 void func(int a, int b, int n)
 
 만약 그냥 void func(int n)이라고 한다면?
 함수 내부에서 func(int n-1)을 호출할텐데 그럼 몇번 장대로 가는 지 알 수 없음
 
 따라서 void func(int a, int b, int n) 원판 n개를 a에서 b로 이동
 
-##### 2. base condition
+### 2. base condition
 
 n == 1일 때 ```cout<<a<<' ' << b<<'\n';```
 
-##### 3. 재귀 식
+### 3. 재귀 식
 
 1. n-1개의 원판을 기둥 a에서 6-a-b로 옮긴다 func(a,6-a-b,n-1)
 2. n번 원판을 기둥 a에서 b로 옮긴다. ```cout << a<<' ' << b<<'\n';```
@@ -103,22 +101,22 @@ int main() {
 	cin >> n;
 	cout << (1 << n) - 1 << '\n';
 	func(1, 3, n);
-	
+
 }
 ```
 허미 어려운거;;;;
 
-#### 백준 1074번. Z
+## 백준 1074번. Z
 
-##### 1. 함수의 정의
+### 1. 함수의 정의
 
 ``` int func(int n, int r, int c)```
 2^n * 2^n 배열에서 (r,c)를 방문하는 순서를 반환하는 함수.
 
-##### 2. base condition
+### 2. base condition
 
 n==0일때 return 0;
-##### 3. 재귀 식
+### 3. 재귀 식
 
 (r,c)가 1번/2번/3번/4번 사각형일때 리턴값 달라지면서
 

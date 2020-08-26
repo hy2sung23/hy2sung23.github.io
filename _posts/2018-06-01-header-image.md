@@ -1,5 +1,7 @@
 ---
 title: Post with Header Image
+sidebar:
+  nav: docs-en
 tags: TeXt
 article_header:
   type: cover
