@@ -1,10 +1,11 @@
 ---
 title: "C++ 1-1. Practice"
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
 categories:
  - Data Structure & Algorithm
-last_modified_at: 2020-07-24
-toc: true
-toc_sticky: true
 ---
 
 ### 1. 10807번 개수 새기
@@ -117,7 +118,7 @@ int main(void) {
 		else {
 			arr0[year - 1]++;
 		}
-		
+
 	}
 	for (int i = 0; i < 6; i++) {
 
@@ -143,7 +144,7 @@ int main(void) {
 	int arr[10] = {};
 	cin >> N;
 	do {
-		int num = N % 10; 
+		int num = N % 10;
 
 		if ((num == 6 || num == 9) && (arr[6] || arr[9])) {
 			cout << "Case 1. \n";

@@ -1,10 +1,11 @@
 ---
 title: "C++ 6-. BFS Practice"
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
 categories:
  - Data Structure & Algorithm
-last_modified_at: 2020-08-01
-toc: true
-toc_sticky: true
 ---
 
 ##### 백준 1012번. 유기농 배추
@@ -36,9 +37,9 @@ int main() {
 			board[a][b] = 1;
 		}
 		for (int i = 0; i < n; i++)
-			for (int j = 0; j < m; j++) 
+			for (int j = 0; j < m; j++)
 				if (board[i][j] && !vis[i][j]) {
-					
+
 					count++;
 					vis[i][j]=1;
 					Q.push({ i,j });
@@ -54,7 +55,7 @@ int main() {
 							Q.push({ nx,ny });
 						}
 					}
-					
+
 				}
 
 		cout << count << '\n';
@@ -132,55 +133,68 @@ int main() {
 ##### 백준 2583번. 영역 구하기 (ing)
 
 ```c++
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-#define x first;
-#define y second;
+#define col first;
+#define row second;
 
-int board[100][100];
-int vis[100][100];
+int M, N, K;
+int cnt; // 각 영역의 넓이
+int num;
+int Move_c[4] = { 0,1,0,-1 };
+int Move_r[4] = { 1,0,-1,0 };
 
-int dx[4] = { 1,0,-1,0 };
-int dy[4] = { 0,1,0,-1 };
+int board[102][102];
+bool vis[102][102];
+
+void init() {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+}
+
+void DFS(int c, int r) {
+	vis[c][r] = 1;
+	cnt++;
+	for (int dir = 0; dir < 4; dir++) {
+		int nc = c + Move_c[dir];
+		int nr = r + Move_r[dir];
+		if (nc < 0 || nc >= M || nr < 0 || nr >= N) continue;
+		if (vis[nc][nr] == 1 || board[nc][nr] == 1) continue;
+		DFS(nc, nr);
+	}
+}
 
 int main() {
-	queue<pair<int, int>> Q;
-	vector<int> v;
-	int M, N, K;
-	cin >> M >> N >> K; //M:높이 N:밑변
-	int St_x, St_y, Fin_x, Fin_y;
+	init();
+	cin >> M >> N >> K;
+	vector<int> L;
 	while (K--) {
-		// St_x,St_y, Fin_x,Fin_y
-		// St_x - Fin_x, St_y - Fin_y for문으로 순회하면서 Q.push()
-		cin >> St_x >> St_y >> Fin_x >> Fin_y;
-		for (int i = 0; i < Fin_x - St_x; i++)
-			for (int j = 0; j < Fin_y - St_y; j++) {
-				vis[St_x + i][St_y + j] = 1;
-			}
+		int x1, y1, x2, y2;
+		cin >> x1 >> y1 >> x2 >> y2;
+		for (int i = y1; i < y2; i++)
+			for (int j = x1; j < x2; j++)
+				board[i][j] = 1;
 	}
-		for (int i = 0; i < N; i++)
-			for (int j = 0; j < M; j++) 
-				if (!vis[i][j]) {
-					int size = 0;
-					Q.push({ i,j });
-					while (!Q.empty()) {
-						auto cur = Q.front();
-						for (int dir = 0; dir < 4; dir++) {
-							int nx = dx[dir] + cur.x;
-							int ny = dy[dir] + cur.y;
-							if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
-							if (vis[nx][ny] || board[nx][ny]) continue;
-							vis[nx][ny] = 1;
-							Q.push({ nx,ny });
-							size++;
+	for (int i = 0; i < M; i++)
+		for (int j = 0; j < N; j++) {
 
-						}
-					}
-					v.push_back(size);
-				}
-		for (auto c : v) cout << c << '\n';
-	
+			if (board[i][j] == 0 && vis[i][j] == 0) {
+				cnt = 0;
+				DFS(i, j);
+				L.push_back(cnt);
+			}
+		}
+	cout << L.size()<<'\n';
 
+	sort(L.begin(), L.end()); //정렬
+
+	for (int i = 0; i < L.size(); i++)
+		cout << L[i] << ' ';
 }
 ```
+
+#### 백준 2667번. 단지 번호 붙이기
+

@@ -1,10 +1,11 @@
 ---
 title: "C++ 2-2. Practice"
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
 categories:
  - Data Structure & Algorithm
-last_modified_at: 2020-07-26
-toc: true
-toc_sticky: true
 ---
 
 ### 1. 5397번 키로거
@@ -46,7 +47,7 @@ int main() {
 				break;
 			}
 		}
-		for (auto c : L) 
+		for (auto c : L)
 			cout << c;
 		cout << '\n';
 	}

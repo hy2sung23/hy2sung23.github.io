@@ -1,10 +1,11 @@
 ---
 title: "C++ 2. Linked List "
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
 categories:
  - Data Structure & Algorithm
-last_modified_at: 2020-07-25
-toc: true
-toc_sticky: true
 ---
 
 ### 1.Linked List

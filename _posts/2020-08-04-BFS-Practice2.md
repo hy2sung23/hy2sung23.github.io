@@ -1,10 +1,11 @@
 ---
 title: "Leetcode 690. Employee Importance, 1306. Jump Game 3 (BFS) "
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
 categories:
  - Data Structure & Algorithm
-last_modified_at: 2020-08-04
-toc: true
-toc_sticky: true
 ---
 
 자신감 회복 휴..
@@ -37,7 +38,7 @@ public:
 				cur->subordinates.pop_back();
 			}
 			sum += cur->importance;
-				
+
 		}
 		return sum;
 	}
@@ -82,12 +83,45 @@ public:
 				}
 			}
 		}
-		return false; 
+		return false;
 //큐가 텅 빔 -> 0값의 인덱스를 방문하지 않고 다른 인덱스만 순환하는 경우
 	}
 };
 ```
 
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+	int next;
+	bool flag;
+	bool vis[500001];
+public:
+	void DFS(vector<int>&arr, int start) {
+		next = start + arr[start];
+		if (next >= 0 && next < arr.size() && vis[next]==false) {
+			vis[next] = true;
+            if (arr[next] == 0) flag = true;
+			DFS(arr, next);
+		}
+		next = start - arr[start];
+		if (next >= 0 && next < arr.size() && vis[next] == false) {
+			vis[next] = true;
+            if (arr[next] == 0) flag = true;
+			DFS(arr, next);
+		}
+	}
+
+	bool canReach(vector<int>& arr, int start) {
+		DFS(arr, start);
+		return flag;
+	}
+
+};
+
+```
+
 vis를 5만개나 만들 필요 없이 set을 이용하면 메모리를 좀 덜 쓸 수 있었음
-또는
-못움직이게 ```arr[start] =0``` 으로 바꿨다면? 괜찮네 이것도..
+또는 못움직이게 ```arr[start] =0``` 으로 바꿨다면? 괜찮네 이것도..

@@ -1,8 +1,11 @@
 ---
 title: "C++ 8. Recursion"
-articles:
- - data_source: Algorithm & Data
-last_modified_at: 2020-08-03
+author:
+    박혜성
+sidebar:
+  nav: Algorithm
+categories:
+ - Data Structure & Algorithm
 ---
 
 ## Recursion 재귀

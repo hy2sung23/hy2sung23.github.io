@@ -10,6 +10,16 @@ header:
     url: data%20structure%20&%20algorithm/2020/07/22/Array.html
 
   - titles:
+          # @start locale config
+      en: &EN       Django_Project
+      en-US: *EN
+      ko: &KO       Django_Project
+      ko-KR: *KO
+
+          # @end locale config
+    url: django%20project/2020/10/09/Beanstalk.html
+
+  - titles:
       # @start locale config
       en: &EN       Archive
       en-US: *EN
@@ -40,17 +50,39 @@ Algorithm:
     children:
       - title: 1. Array And Vector
         url: data%20structure%20&%20algorithm/2020/07/22/Array.html
+      - title: __1-1. Array Practice
+        url: data%20structure%20&%20algorithm/2020/07/24/Array-Practice.html
+
       - title: 2. Linked List
         url: data%20structure%20&%20algorithm/2020/07/25/LinkedList.html
+      - title: __2-1. Linked List Practice
+        url: data%20structure%20&%20algorithm/2020/07/26/LinkedList-Practice.html
+
       - title: 3. Stack
         url: data%20structure%20&%20algorithm/2020/07/29/Stack.html
+
       - title: 4. Queue
         url: data%20structure%20&%20algorithm/2020/07/29/Queue.html
+
       - title: 5. Deque
         url: data%20structure%20&%20algorithm/2020/07/29/deque.html
+      - title: __4,5,6-1. Queue, Stack, Deque Practice
+        url: data%20structure%20&%20algorithm/2020/07/29/456_practice.html
+
       - title: 6. Breadth First Search
         url: data%20structure%20&%20algorithm/2020/07/31/BFS.html
+      - title: __6-1. BFS Practice
+        url: data%20structure%20&%20algorithm/2020/08/01/BFS-Practice.html
+      - title: __6-2. BFS Practice2
+        url: data%20structure%20&%20algorithm/2020/08/04/BFS-Practice2.html
+
       - title: 7. Depth First Search
         url: data%20structure%20&%20algorithm/2020/08/01/DFS.html
+
       - title: 8. Recursion
         url: data%20structure%20&%20algorithm/2020/08/03/Recursion.html
+
+
+
+data%20structure%20&%20algorithm/2020/08/04/BFS-Practice2:
+  html:
